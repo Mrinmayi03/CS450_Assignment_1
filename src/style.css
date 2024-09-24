@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff; 
+    color: black; 
+    display: flex;
+    flex-direction: column;
+    /* height: 50vh; */
+    font-size: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(6, 6, 6);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.contact-info {
+    font-size: 16px;
+    text-align: right;
+}
+
+.After_Header {
+    border: none;           
+    border-top: 10px solid yellow; 
+    margin: 20px 0;         
+}
+
+.After_Profile , .After_Experience , .After_Skills {
+    border: none;
+    border-top: 3px solid black;
+    margin: 0;
+}
+
+
+main {
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 2em;
+}
+
+.profile {
+    display: flex;
+    gap: 245px;
+    /* align-content: space-between; */
+}
+
+.experience {
+    display: flex;
+    gap: 200px;
+}
+
+.joblist {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    gap: 175px;
+}
+
+.TopLists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lists1 , .Lists2 , .Lists3 {
+    margin: 0 30px;
+    list-style: none;
+}
+
+.education {
+    display: flex;
+    gap: 200px;
+}
+
+.BachelorsAndMasters {
+    display: flex;
+    flex-direction: column;
+}
+
+.Bachelors , .Masters {
+    list-style: none;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.job {
+    margin-bottom: 1em;
+}
+
